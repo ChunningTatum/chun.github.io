@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>About me</title>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <header> <!--navigation -->
+    <h1> <a href="Index.html">Chun Hui Xiao</a></h1>
+    <nav>
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="mywork.html">My work</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main> <!--content -->
+    <section class="about-sec">
+      <article class="about-art">
+        <h2>About me</h2>
+        <img class="about-pic" src="img/img2.png" alt="">
+        <p>Hi, nice to meet you! My name is <strong>Chun</strong> and I am a <strong>Communication Multimedia Design (CMD) student</strong> at Hogeschool van Amsterdam (HvA). In my free time, I like to play <strong>games</strong> or do
+          <strong>sports</strong>. Mostly doing <strong>Front-end</strong> but, also interested in photography, film making and art.</p>
+      </article>
+    </section>
+
+    <!-- This is the modal for the mail form -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-form-wrapper">
+          <form>
+            <h3>Hi nice to meet you!</h3>
+            <label>Name:
+              <input type="text" id="name" placeholder="Your name" required>
+            </label>
+            <label>Last Name:
+              <input type="text" id="lastName" placeholder="Your last name" required>
+            </label>
+            <label>E-mail:
+              <input type="email" placeholder="Youremail@hotmail.com" required>
+            </label>
+            <label> Message:
+              <input type="text" placeholder="Hi" required>
+            </label>
+            <button type="button" name="send">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <button id="myBtn" type="button" name="button"> Contact</button>
+    <a href="https://www.linkedin.com/in/chun-hui-xiao/" target="_blank"> <img src="img/linkedin.png" alt=""></a>
+    <a href="https://github.com/ChunningTatum" target="_blank"><img src="img/github.png" alt=""></a>
+    <a href="https://www.instagram.com/chnhx/" target="_blank"><img src="img/instagram.png" alt=""></a>
+    <a href="https://www.facebook.com/chunhui.xiao.1" target="_blank"><img src="img/facebook.png" alt=""></a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
